@@ -1,0 +1,82 @@
+*{
+  margin: 0px;
+  padding:0px;
+}
+body{
+  width:100%;
+  height:1550px;
+  position:relative;
+}
+.header{
+  height:90px;
+  background: gainsboro;
+  font-family:黑体；
+  line-height:10px;
+}
+.poem{
+  width:400px;
+  height:200px;
+  background: gainsboro;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.pa{
+  text-indent: 2em;
+}
+.img{
+  width:400px;
+  height:200px;
+}
+
+.poem p{
+  margin-top: 5px;
+  font-size: 16px;
+  font-family: Arial;
+}
+
+.row-sub{
+  width:100%;
+  height:10px;
+  background:gainsboro ;
+}
+.img-md{
+  width:400px;
+  height:200px;
+
+}
+.earth{
+  width:400px;
+  height:200px;
+  background-color:gainsboro;
+  margin-left: 5px;
+  margin-top: 5px;
+  line-height: 26px;
+}
+.earth>p{
+  text-indent: 2em;
+  font-family: heiti;
+  font-size: 16px;
+  color: black;
+}
+.img-antelope{
+  width:400px;
+  height:200px;
+  margin:0 auto;
+  /*background-image: url("dist\images\diqiu-lingyang.jpg");*/
+  /*background-size: cover;*/
+  /*background-repeat: no-repeat;*/
+}
+.mg-ocean{
+  width:400px;
+  height:200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin:0 auto;
+}
+.footer{
+  width:100%;
+  height:100px;
+  background:gainsboro;
+  position:absolute;
+  left:0px;
+  bottom: 0px;
