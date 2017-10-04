@@ -31,7 +31,7 @@ body{
   top:0px;
   left: 0px;
 }
-.wrap img{
+.wrap >img{
   position: absolute;
   top:0px;
   left: 0px;
@@ -41,12 +41,12 @@ body{
   height:200px;
   background: gainsboro;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .pa{
   text-indent: 2em;
 }
-.img{
+.img-poerty{
   width:400px;
   height:200px;
 }
@@ -73,6 +73,7 @@ body{
   background-color:gainsboro;
   margin-left: 5px;
   margin-top: 5px;
+  margin-bottom: 10px;
   line-height: 26px;
 }
 .earth>p{
@@ -85,6 +86,7 @@ body{
   width:400px;
   height:200px;
   margin:0 auto;
+  margin-bottom: 5px;
   /*background-image: url("dist\images\diqiu-lingyang.jpg");*/
   /*background-size: cover;*/
   /*background-repeat: no-repeat;*/
@@ -92,9 +94,10 @@ body{
 .mg-ocean{
   width:400px;
   height:200px;
-  background-size: cover;
-  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  /*background-repeat: no-repeat;*/
   margin:0 auto;
+  margin-bottom: 5px;
 }
 .footer {
   width: 100%;
@@ -110,7 +113,7 @@ body{
   margin-top: 10px;
   position:absolute;
   right:100px;
-  top:10px;
+  top:0px;
 }
 .ftext{
   font-family: 黑体;
@@ -118,4 +121,20 @@ body{
   color: deepskyblue;
   margin-left: 20px;
   margin-top: 10px;
+}
+.img-city{
+  width:400px;
+  height:200px;
+  margin:0 auto;
+  margin-top: 10px;
+}
+.city{
+  width:400px;
+  height:200px;
+  background-color:gainsboro;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-indent: 2em;
+  font-family: 黑体;
 }
